@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9cd4f7;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+.form-login {
+    background-color: #7c9cd5;
+    padding: 100px;
+    border-radius: 5px;
+    box-shadow: 12 2 10px rgba(0, 0, 000, 0.1);
+}
+
+.form-toggle {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+loginbutton {
+    background-color: #d9005a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input {
+    padding: -655px;
+    margin: 5px;
+    width: 100%;
+}
+
