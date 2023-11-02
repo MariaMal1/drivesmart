@@ -1,0 +1,97 @@
+body {background-color: rgb(120, 110, 227);
+    background-image: url("");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 1580px 177px;
+    background-attachment: scroll;
+    }
+    .topnav {
+    background-color:rgb(0, 0, 93);
+    overflow:hidden;
+    }
+    .topnav a {
+    float: left;
+    color: #0a61ac;
+    text-align: center;
+    padding: 16px 50px;
+    text-decoration:wavy;
+    font-size: 17px;
+    }
+    .topnav a:hover {
+    background-color: rgb(16, 80, 183);
+    color: black;
+}
+.topnav a.active {
+background-color: rgb(118, 54, 201);
+color: white;
+}
+ul.breadcrumb {
+padding: 10px 16px;
+list-style: none;
+background-color: none;
+margin-right: 43% ;
+margin-bottom: 20px;
+}
+ul.breadcrumb li {
+display: inline;
+font-size: 20px;
+}
+ul.breadcrumb li+li:before {
+padding: 8px;
+color:rgb(0, 0, 93);
+content: "/\00a0";
+}
+ul.breadcrumb li a {
+color: rgb(0, 0, 93);
+text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+color: rgb(47, 25, 120);
+text-decoration: underline;
+}
+table.center {margin-left: auto;
+    margin-right: auto;
+    }
+    table {
+    background-color: whitesmoke;
+    font-family:Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    box-shadow: 5px 4px 30px black;
+    border-radius: 10px;
+    border-spacing: 0px;
+    margin-bottom: 20px;
+    }
+    td, th {
+    border-spacing: 0px;
+    text-align: left;
+    padding: 8px;
+    }
+    tr:nth-child(even) {
+    background-color: white;
+    }
+    .center tr:not(:first-child):hover {
+    background-color: rgb(28, 69, 203);
+    color: rgb(59, 15, 126);
+    font-weight: bold;
+    transition-delay: 0s;
+    transition-duration: 0.01s;
+    transition-property: all;
+    transition-timing-function: line;
+    }
+    .fa {
+        padding: 20px;
+font-size: 30px;
+width: 30px;
+text-align: center;
+text-decoration: none;
+border-radius: 50%;
+}
+.fa-facebook {
+background: rgb(0, 0, 93);
+color: white; }
+.fa-instagram {
+background: rgb(0, 0, 93);
+color: white;}
+    

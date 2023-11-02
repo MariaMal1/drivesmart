@@ -2,33 +2,38 @@
 <html>
 <head>
     <title>Φόρμα Συμπλήρωσης Στοιχείων Αυτοκινήτου</title>
-    <link rel="stylesheet" type="text/css" href="CreateCar.css">
+    <link rel="stylesheet" type="text/css" href="ConnectCar.css">
 <html>
 <body> 
-   
+    <style>
+        /* Κεντράρουμε το κείμενο της επικεφαλίδας */
+        .center-header {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="center-header">
-        <br> <h1>VEHICLE DETAILS</h1>
+        <br> <h1>Στοιχεία Οχήματος</h1>
     </div>
     <form>
-        <label for="make">MANUFACTURER:</label>
+        <label for="make">Κατασκευαστής:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="make">BRAND:</label>
+        <label for="make">Μάρκα:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="model">MODEL:</label>
+        <label for="model">Μοντέλο:</label>
         <input type="text" id="model" name="model">
         <br>
 
-        <label for="year">YEAR:</label>
+        <label for="year">Έτος:</label>
         <input type="number" id="year" name="year">
         <br>
 
-        <label for="color">COLOR:</label>
+        <label for="color">Χρώμα:</label>
         <input type="text" id="color" name="color">
         <br>
 
@@ -36,26 +41,30 @@
         <input type="text" id="vin" name="vin">
         <br>
 
-        <label for="make">KILOMETERS:</label>
+        <label for="licensePlate">Αριθμός Κυκλοφορίας:</label>
+        <input type="text" id="licensePlate" name="licensePlate">
+        <br>
+
+        <label for="make">Χιλιόμετρα:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="make">CUBES</label>
+        <label for="make">Κυβικά:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="make">TRANSMISSION:</label>
+        <label for="make">Σασμαν:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="make">FUEL:</label>
+        <label for="make">Καύσιμο:</label>
         <input type="text" id="make" name="make">
         <br>
 
-        <label for="make">HORSES:</label>
+        <label for="make">Ίπποι:</label>
         <input type="text" id="make" name="make">
         <br>
-        <label for="make">POLLUTANT CLASS:</label>
+        <label for="make">Κλάση Ρύπων:</label>
         <input type="text" id="make" name="make">
         <br>
 
@@ -93,5 +102,7 @@
         border-radius: 4px;
         cursor: pointer;
     }
-
-             
+    input[type="submit"]:hover {
+        background-color: hsl(227, 69%, 42%);
+    }
+</style>              
